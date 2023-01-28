@@ -2,6 +2,7 @@ local plrs = game:GetService("Players")
 local plr = plrs.LocalPlayer
 local mouse = plr:GetMouse()
 local camera = game:GetService("Workspace").CurrentCamera
+print("Loaded Silent Aim! - Have Fun Cheating!")
 
 function notBehindWall(target)
     local ray = Ray.new(plr.Character.Head.Position, (target.Position - plr.Character.Head.Position).Unit * 300)
